@@ -6,11 +6,7 @@ class MainPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-          title: Text("홈",
-              style: TextStyle(
-                fontSize: 26,
-              ))),
+      appBar: AppBar(title: Text("홈", style: TextStyle(fontSize: 26))),
       body: const Column(
         children: [],
       ),
