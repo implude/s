@@ -11,15 +11,9 @@ class MainPage extends StatelessWidget {
         children: [],
       ),
       bottomNavigationBar: BottomNavigationBar(items: const [
-        BottomNavigationBarItem(
-          icon: Icon(Icons.home),
-        ),
-        BottomNavigationBarItem(
-          icon: Icon(Icons.add_comment),
-        ),
-        BottomNavigationBarItem(
-          icon: Icon(Icons.more_horiz),
-        ),
+        BottomNavigationBarItem(icon: Icon(Icons.home), label: "홈"),
+        BottomNavigationBarItem(icon: Icon(Icons.add_comment), label: "업로드"),
+        BottomNavigationBarItem(icon: Icon(Icons.more_horiz), label: "더보기"),
       ]),
     );
   }
